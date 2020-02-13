@@ -1,0 +1,27 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class sword : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    void OnCollision(GameObject collidingObject)
+    {
+        if (collidingObject.gameObject.name == "blob")
+        {
+            collidingObject.GetComponent<blobStats>().OnHit(5);
+            Destroy(this);
+        }
+    }
+}
