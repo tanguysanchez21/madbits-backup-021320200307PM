@@ -54,7 +54,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11548}
     - Class: 114
-      Script: {instanceID: 15802}
+      Script: {instanceID: 11726}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -234,6 +234,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: e67abc08da5d3aecaca7b711bce51052
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: atk
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -504,12 +510,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: e67abc08da5d3aecaca7b711bce51052
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: atk
   platform: 13
   scenePathNames:
   - Assets/Scenes/main_scene.unity
